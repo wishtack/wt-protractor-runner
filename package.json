@@ -7,6 +7,9 @@
         "type": "git",
         "url": "https://github.com/wishtack/gulp-protractor-run.git"
     },
+    "scripts": {
+        "test": "jasmine-node test"
+    },
     "keywords": [
         "angularjs",
         "e2e",
@@ -22,6 +25,8 @@
     "homepage": "https://github.com/wishtack/gulp-protractor-run",
     "dependencies": {
         "async": "0.9.0",
+        "dejavu": "0.4.8",
+        "jasmine-node": "git://github.com/mhevery/jasmine-node.git#Jasmine2.0",
         "protractor": "2.0.0",
         "string-format": "0.5.0",
         "temp": "0.8.1",
