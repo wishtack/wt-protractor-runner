@@ -1,4 +1,4 @@
-# gulp-protractor-run
+# wt-protractor-runner
 
 ## What's that for?
 
@@ -11,15 +11,17 @@ This module is here to help you with two things:
 
 As you may know, there's already [gulp-protractor](https://github.com/mllrsohn/gulp-protractor) that allows you to use 
 a gulp plugin in order to run protractor. It's readme also shows how to run protractor without a gulp plugin but it needs
-some copy/pasting. [gulp-protractor-run](https://github.com/wishtack/gulp-protractor-run) will help you avoid this code
+some copy/pasting. [wt-protractor-runner](https://github.com/wishtack/wt-protractor-runner) will help you avoid this code
 duplication and run your tests in few seconds.
 
-Install [gulp-protractor-run](https://github.com/wishtack/gulp-protractor-run)
+Install [wt-protractor-runner](https://github.com/wishtack/wt-protractor-runner)
 
 Gulpfile.js:
 
 ```javascript
- gulp.task('test-e2e', require('gulp-protractor-run')({
+ var protractorRunner = require('wt-protractor-runner');
+ 
+ gulp.task('test-e2e', protractorRunner({
      configList: [
          {
              capabilites: {
@@ -43,10 +45,10 @@ Just do the same as above and give multiple configurations to protractor.
 
 ```javascript
  
- var protractorRun = require('gulp-protractor-run');
+ var protractorRunner = require('wt-protractor-runner');
  var specPattern = __dirname + '/test/e2e/*.js';
  
- gulp.task('test-e2e', protractorRun({
+ gulp.task('test-e2e', protractorRunner({
      configList: [
          /* Chrome. */
          {
@@ -74,3 +76,9 @@ Just do the same as above and give multiple configurations to protractor.
 ```
 
 To make this more readable, you should use [wt-protractor-utils](https://github.com/wishtack/wt-protractor-utils).
+
+## Without gulp.
+
+```javascript
+ protractorRunner({configList: ...})(callback);
+```

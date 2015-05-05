@@ -1,11 +1,11 @@
 {
-    "name": "gulp-protractor-run",
-    "version": "0.1.1",
-    "description": "Gulp protractor runner task",
+    "name": "wt-protractor-runner",
+    "version": "0.2.0",
+    "description": "Gulp (or anywhere else) protractor runner task",
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/wishtack/gulp-protractor-run.git"
+        "url": "https://github.com/wishtack/wt-protractor-runner.git"
     },
     "scripts": {
         "test": "jasmine-node test"
@@ -20,9 +20,9 @@
     "author": "Wishtack",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/wishtack/gulp-protractor-run/issues"
+        "url": "https://github.com/wishtack/wt-protractor-runner/issues"
     },
-    "homepage": "https://github.com/wishtack/gulp-protractor-run",
+    "homepage": "https://github.com/wishtack/wt-protractor-runer",
     "dependencies": {
         "async": "0.9.0",
         "dejavu": "0.4.8",
