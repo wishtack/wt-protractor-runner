@@ -10,7 +10,7 @@ This module is here to help you with two things:
 ## Run protractor
 
 As you may know, there's already [gulp-protractor](https://github.com/mllrsohn/gulp-protractor) that allows you to use 
-a gulp plugin in order to run protractor. It's readme also shows how to run protractor without a gulp plugin but it needs
+a gulp plugin in order to run protractor. Its readme also shows how to run protractor without a gulp plugin but it needs
 some copy/pasting. [wt-protractor-runner](https://github.com/wishtack/wt-protractor-runner) will help you avoid this code
 duplication and run your tests in few seconds.
 
