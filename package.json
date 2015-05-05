@@ -1,0 +1,30 @@
+{
+    "name": "gulp-protractor-run",
+    "version": "0.1.0",
+    "description": "Gulp protractor runner task",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wishtack/gulp-protractor-run.git"
+    },
+    "keywords": [
+        "angularjs",
+        "e2e",
+        "gulp",
+        "protractor",
+        "test"
+    ],
+    "author": "Wishtack",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/wishtack/gulp-protractor-run/issues"
+    },
+    "homepage": "https://github.com/wishtack/gulp-protractor-run",
+    "dependencies": {
+        "async": "0.9.0",
+        "protractor": "2.0.0",
+        "string-format": "0.5.0",
+        "temp": "0.8.1",
+        "underscore": "1.8.3"
+    }
+}
