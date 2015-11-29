@@ -1,6 +1,6 @@
 {
     "name": "wt-protractor-runner",
-    "version": "0.2.2",
+    "version": "0.3.0",
     "description": "Gulp (or anywhere else) protractor runner task",
     "main": "index.js",
     "repository": {
@@ -27,7 +27,7 @@
         "async": "0.9.0",
         "dejavu": "0.4.8",
         "jasmine-node": "git://github.com/mhevery/jasmine-node.git#Jasmine2.0",
-        "protractor": "2.0.0",
+        "protractor": "2.5.1",
         "string-format": "0.5.0",
         "temp": "0.8.1",
         "underscore": "1.8.3"
