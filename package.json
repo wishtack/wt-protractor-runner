@@ -24,12 +24,12 @@
     },
     "homepage": "https://github.com/wishtack/wt-protractor-runer",
     "dependencies": {
-        "async": "0.9.0",
+        "async": "1.5.0",
         "dejavu": "0.4.8",
         "jasmine-node": "git://github.com/mhevery/jasmine-node.git#Jasmine2.0",
-        "protractor": "2.5.1",
+        "protractor": "3.0.0",
         "string-format": "0.5.0",
-        "temp": "0.8.1",
+        "temp": "0.8.3",
         "underscore": "1.8.3"
     }
 }
