@@ -1,6 +1,6 @@
 {
     "name": "wt-protractor-runner",
-    "version": "0.4.1",
+    "version": "0.4.2",
     "description": "Gulp (or anywhere else) protractor runner task",
     "main": "index.js",
     "repository": {
